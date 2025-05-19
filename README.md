@@ -65,7 +65,7 @@
       <li><strong>⚙️ Proceso:</strong> Operaciones lógicas.</li>
       <li><strong>📤 Salida (Output):</strong> Resultados finales.</li>
     </ul>
-<p align="center">  <img src="https://github.com/user-attachments/assets/8454721e-38df-4e67-83e6-b10d8117fa76" alt="Partes del algoritmo" width=600></p>
+<p align="center">  <img src="https://github.com/user-attachments/assets/8454721e-38df-4e67-83e6-b10d8117fa76" alt="Partes del algoritmo" width=300></p>
 
   </section>
 
@@ -75,7 +75,7 @@
       La <strong>algoritmia</strong> estudia los algoritmos, enfocándose en su diseño, análisis y aplicación para resolver problemas de manera eficiente. Es una disciplina clave en informática que busca optimizar recursos computacionales.
     </p>
   <p align="center"> 
-  <img src="https://github.com/user-attachments/assets/9020c530-f3e6-4f66-a0d6-f31eaa4123db" alt="Algoritmia"  width=600> </p>
+  <img src="https://github.com/user-attachments/assets/9020c530-f3e6-4f66-a0d6-f31eaa4123db" alt="Algoritmia"  width=300> </p>
   </section>
 
   <section>
@@ -128,7 +128,7 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
 <h2> DESARROLLO DE CONTENIDOS</h2>
 <!---------------------------------------------------- SEMANA 1 --------------------------------------------------->
 <details>
-  <summary>📌 SEMANA 1</summary>
+  <summary><h2>📌 SEMANA 1</h2></summary>
   <h2>🌱 1. Algoritmia elemental</h2>
     <p>
       Introduce conceptos básicos como eficiencia, análisis de casos y algoritmos simples (búsqueda lineal, binaria, ordenamientos). Por ejemplo, la búsqueda lineal recorre todos los elementos hasta encontrar el objetivo, mientras que la búsqueda binaria divide el espacio de búsqueda a la mitad en cada paso, siendo más eficiente en listas ordenadas.
@@ -151,7 +151,7 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
       <li><strong>Omega (ω):</strong> Cota inferior. Indica el mejor caso de crecimiento. Ejemplo: ω(n) para un algoritmo que al menos recorre una lista una vez.</li>
       <li><strong>Theta (θ):</strong> Cota ajustada. Describe un crecimiento exacto, combinando O y ω. Ejemplo: θ(n log n) para algoritmos como Quicksort en el caso promedio.</li>
     </ul>
-   <p align="center">  <img src="https://i.ytimg.com/vi/Qui-iOPdhLI/maxresdefault.jpg" alt="Notación asintótica" width=600> </p>
+   <p align="center">  <img src="https://i.ytimg.com/vi/Qui-iOPdhLI/maxresdefault.jpg" alt="Notación asintótica" width=400> </p>
   </section>
 
   <section>
@@ -177,7 +177,7 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
     
 <!---------------------------------------------------- SEMANA 2 --------------------------------------------------->
   <details>
-  <summary>📌 SEMANA 2</summary>
+  <summary><h2>📌 SEMANA 2</h2></summary>
    <section>
     <h2>⚡ 1.2 Eficiencia de los algoritmos</h2>
     <ul>
@@ -204,26 +204,62 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
 </details>
 <!---------------------------------------------------- SEMANA 3 --------------------------------------------------->
 <details>
-  <summary>📌 SEMANA 3</summary>
+  <summary><h2>📌 SEMANA 3</h2></summary>
+  <div>
+    <p><h2>1.4. Caso peor</h2></p>
+    <p>En el análisis de algoritmos el caso peor se refiere al escenario en el que un algoritmo realiza la mayor cantidad de operaciones posibles para una entrada de tamaño. Se analiza cuánto tiempo o cuántos recursos puede llegar a consumir el algoritmo en la situación más desfavorable</p>
+    <p> <h3>Porque es importante?</h3></p>
+    <ul>
+        <li><p> GARANTÍA DE RENDIMIENTO: Permite asegurar que, sin importar la entrada, el algoritmo nunca será más lento que el tiempo calculado en el caso peor.</p></li>
+        <li> COMPARACIÓN: Es útil para comparar algoritmos y elegir el más eficiente en situaciones críticas.</li>
+        <br/>
+        <p> EJEMPLO:
+          En la búsqueda lineal, el caso peor ocurre cuando el elemento buscado está al final del arreglo o no existe, lo que implica recorrer todos los elementos.</p>
+    </ul>
+    <p><h3>Notación</h3></p>
+    <p>Se utiliza la notación O grande (Big O) para expresar el crecimiento del tiempo de ejecución en el caso peor
+      Ejemplo: La búsqueda lineal tiene un caso peor de O(n)
+    </p>
+  </div>
 
+  <div>
+       <p>
+         <h2>1.5. Operación elemental</h2>
+       </p>
+      <p>
+        Una operación elemental es la acción más básica y representativa que realiza un algoritmo y que se repite durante su ejecución. Es la unidad de medida que se utiliza para analizar el costo de un algoritmo.
+      </p>
+      <ul>
+        <li>SIMPLICIDAD: Generalmente es una operación aritmética, una comparación, un acceso a memoria, etc.</li>
+        <li>REPETICIÓN: Se elige la operación que más veces se repite en el algoritmo, ya que es la que más impacta en el tiempo total de ejecución.</li>
+        <li>INDEPENDENCIA: Se asume que cada operación elemental toma un tiempo constante.</li>
+      </ul>
+      <p>EJEMPLO:
+        En el algoritmo de búsqueda lineal, la operación elemental suele ser la comparación entre el elemento buscado y el elemento actual del arreglo.
+      </p>
+      <p>
+        <h3>PORQUE ES IMPORTANTE?</h3>
+        Permite cuantificar y comparar algoritmos de manera objetiva, sin depender del hardware o de implementaciones específicas.
+      </p>
+  </div>
 </details>
 
 <!---------------------------------------------------- SEMANA 4 --------------------------------------------------->
 <details>
-  <summary>📌 SEMANA 4</summary>
+  <summary><h2>📌 SEMANA 4<h2></summary>
 
 </details>
 
 <!---------------------------------------------------- SEMANA 5 --------------------------------------------------->
 <details>
-  <summary>📌 SEMANA 5</summary>
+  <summary><h2>📌 SEMANA 5</h2></summary>
 
 </details>
 
 
 <!---------------------------------------------------- SEMANA 6 --------------------------------------------------->
 <details>
-  <summary>📌 SEMANA 6</summary>
+  <summary><h2>📌 SEMANA 6</h2></summary>
 
 </details>
  
