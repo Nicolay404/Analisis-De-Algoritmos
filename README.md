@@ -247,12 +247,139 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
 <!---------------------------------------------------- SEMANA 4 --------------------------------------------------->
 <details>
   <summary><h2>📌 SEMANA 4<h2></summary>
-  
+  <div>
+
+## 2.1 Notación para el "orden de"
+
+<p>La <strong>notación para el "orden de"</strong> en análisis de algoritmos se refiere principalmente a la notación Big-O (<em>O grande</em>), que es una herramienta matemática utilizada para describir cómo crece el tiempo de ejecución o el uso de recursos de un algoritmo en función del tamaño de la entrada.</p>
+
+<p><strong>¿Qué expresa la notación Big-O?</strong></p>
+<ul>
+  <li>Expresa el <em>orden de crecimiento</em> de la función que representa el tiempo de ejecución o el espacio utilizado por un algoritmo, a medida que el tamaño de la entrada (n) tiende a infinito.</li>
+  <li>Permite comparar la eficiencia de diferentes algoritmos, especialmente cuando se enfrentan a entradas muy grandes.</li>
+</ul>
+
+<p><strong>¿Cómo se utiliza?</strong></p>
+<ul>
+  <li>Se escribe como <code>O(f(n))</code>, donde <code>f(n)</code> es una función que describe cómo crecen los recursos requeridos en función de <code>n</code>.</li>
+  <li>Por ejemplo, <code>O(1)</code> significa tiempo constante (no depende de <code>n</code>), <code>O(n)</code> es lineal, <code>O(n^2)</code> es cuadrático, y así sucesivamente.</li>
+</ul>
+
+<p><strong>Ejemplos de órdenes comunes:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Notación</th>
+      <th>Nombre</th>
+      <th>Ejemplo típico</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>O(1)</td>
+      <td>Constante</td>
+      <td>Acceso a un elemento en un array</td>
+    </tr>
+    <tr>
+      <td>O(log n)</td>
+      <td>Logarítmico</td>
+      <td>Búsqueda binaria</td>
+    </tr>
+    <tr>
+      <td>O(n)</td>
+      <td>Lineal</td>
+      <td>Recorrido de una lista</td>
+    </tr>
+    <tr>
+      <td>O(n log n)</td>
+      <td>Linealítmico</td>
+      <td>Algoritmos de ordenamiento eficientes</td>
+    </tr>
+    <tr>
+      <td>O(n^2)</td>
+      <td>Cuadrático</td>
+      <td>Algoritmos de ordenamiento simples</td>
+    </tr>
+    <tr>
+      <td>O(2^n)</td>
+      <td>Exponencial</td>
+      <td>Algoritmos de fuerza bruta</td>
+    </tr>
+    <tr>
+      <td>O(n!)</td>
+      <td>Factorial</td>
+      <td>Algoritmos de permutaciones</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>¿Por qué es útil?</strong></p>
+<ul>
+  <li>Simplifica el análisis ignorando constantes y términos de menor orden, enfocándose solo en el comportamiento dominante cuando <code>n</code> es grande.</li>
+  <li>Ayuda a anticipar cómo escalará un algoritmo y a tomar decisiones informadas sobre cuál es más adecuado según el problema y el tamaño de los datos.</li>
+</ul>
+
+<p><strong>Reglas básicas al usar la notación Big-O:</strong></p>
+<ul>
+  <li>Se omiten constantes y términos de menor orden.</li>
+  <li>Solo se considera el término de mayor crecimiento.</li>
+</ul>
+
+<p><strong>En resumen:</strong><br/>
+La notación para el "orden de" (<em>O grande</em>) es fundamental para analizar, comparar y seleccionar algoritmos en computación, ya que permite describir de manera estandarizada y simplificada cómo crecen los recursos requeridos por un algoritmo en función del tamaño de la entrada.</p>
+
+</div>
 </details>
 
 <!---------------------------------------------------- SEMANA 5 --------------------------------------------------->
 <details>
   <summary><h2>📌 SEMANA 5</h2></summary>
+  <div>
+  
+  ## 2.2 Notación Omega (Ω)
+  
+  <p>La <strong>notación Omega grande</strong> (Ω) se usa para establecer una <em>cota inferior asintótica</em> del tiempo de ejecución de un algoritmo. Es decir, indica que el algoritmo toma <em>por lo menos</em> cierta cantidad de tiempo para entradas suficientemente grandes.</p>
+  
+  <p>Formalmente, decimos que una función <code>f(n)</code> es <code>Ω(g(n))</code> si existen constantes positivas <code>c</code> y <code>n₀</code> tales que para todo <code>n ≥ n₀</code> se cumple:</p>
+  
+  \[ f(n) \geq c \cdot g(n) \]
+  
+  <p>Esto significa que <code>f(n)</code> crece al menos tan rápido como <code>g(n)</code> para valores grandes de <code>n</code>.</p>
+  
+  <p>La notación Ω es útil para describir el <em>mejor caso</em> o para dar una garantía mínima sobre el tiempo que un algoritmo necesitará.</p>
+  
+  <p>Por ejemplo, el tiempo de ejecución del peor caso de la búsqueda binaria es <code>Ω(1)</code>, porque al menos toma un tiempo constante.</p>
+  
+  ---
+  
+  ## 2.3 Notación Theta (Θ)
+  
+  <p>La <strong>notación Theta</strong> (Θ) se utiliza para expresar una <em>cota ajustada o estricta</em> del crecimiento de la función de tiempo de un algoritmo. Esto significa que la función está acotada tanto por arriba como por abajo por la misma función asintótica.</p>
+  
+  <p>Formalmente, <code>f(n)</code> es <code>Θ(g(n))</code> si existen constantes positivas <code>c₁, c₂</code> y <code>n₀</code> tales que para todo <code>n ≥ n₀</code>:</p>
+  
+  \[ c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n) \]
+  
+  <p>Esto implica que <code>f(n)</code> crece al mismo ritmo que <code>g(n)</code> para valores grandes de <code>n</code>.</p>
+  
+  <p>La notación Θ es la más precisa para describir la complejidad temporal o espacial de un algoritmo, ya que indica el comportamiento exacto en términos asintóticos.</p>
+  
+  ---
+  
+  ## 2.4 Notación asintótica condicional
+  
+  <p>La <strong>notación asintótica condicional</strong> se refiere a la aplicación de las notaciones asintóticas (O, Ω, Θ) bajo ciertas condiciones o restricciones sobre el tamaño de la entrada o parámetros específicos del problema.</p>
+  
+  <p>Por ejemplo, un algoritmo puede tener un comportamiento diferente según el rango o la forma de la entrada, y la notación condicional permite expresar estas diferencias.</p>
+  
+  <p>Un caso típico es cuando el análisis se hace para <em>n suficientemente grande</em>, o cuando se evalúa la complejidad solo para entradas que cumplen ciertas propiedades (como ser potencias de dos, o tener una estructura particular).</p>
+  
+  <p>Esta notación es útil para describir con mayor precisión el comportamiento de un algoritmo en situaciones específicas, y para ajustar las cotas asintóticas según condiciones particulares.</p>
+  
+  ---
+  
+  </div>
 
 </details>
 
@@ -260,6 +387,38 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
 <!---------------------------------------------------- SEMANA 6 --------------------------------------------------->
 <details>
   <summary><h2>📌 SEMANA 6</h2></summary>
+      <div>
+  
+  ## 3.1 Estructuras de control
+  
+  <p>Las <strong>estructuras de control</strong> en programación son herramientas fundamentales que permiten controlar el flujo de ejecución de un programa o algoritmo. Gracias a ellas, el código puede seguir un flujo lógico, tomar decisiones, repetir acciones o continuar de forma secuencial, adaptándose a diferentes condiciones y situaciones.</p>
+  
+  <p>En esencia, las estructuras de control definen el orden en que se ejecutan las instrucciones dentro de un programa, permitiendo que éste no se limite a una ejecución lineal sino que pueda variar según las necesidades.</p>
+  
+  ---
+  
+  ### Tipos principales de estructuras de control
+  
+  <p>Las estructuras de control se clasifican en tres categorías básicas:</p>
+  
+  <ul>
+    <li><strong>Estructuras secuenciales:</strong> Son las más simples, donde las instrucciones se ejecutan una tras otra en el orden en que están escritas. Este tipo de estructura es la base de cualquier algoritmo.</li>
+    <li><strong>Estructuras condicionales o selectivas:</strong> Permiten que el programa tome decisiones y ejecute diferentes bloques de código según se cumplan o no ciertas condiciones. Ejemplos comunes son <code>if</code>, <code>else</code> y <code>switch</code>.</li>
+    <li><strong>Estructuras iterativas o bucles:</strong> Permiten repetir un bloque de código varias veces, ya sea un número determinado de veces o mientras se cumpla una condición. Ejemplos son <code>for</code>, <code>while</code> y <code>do-while</code>.</li>
+  </ul>
+  
+  ---
+  
+  ### Funciones y beneficios de las estructuras de control
+  
+  <ul>
+    <li>Permiten que los programas respondan a diferentes condiciones y datos de entrada.</li>
+    <li>Facilitan la repetición de tareas sin necesidad de duplicar código.</li>
+    <li>Ayudan a modularizar y organizar el código, mejorando su legibilidad y mantenimiento.</li>
+    <li>Son esenciales para la programación estructurada y el desarrollo de algoritmos eficientes.</li>
+  </ul>
+  
+  ---
 
 </details>
  
