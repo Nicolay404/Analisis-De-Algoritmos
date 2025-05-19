@@ -23,10 +23,7 @@
 </div>
 
 <!-- INICIO DEL INDICE -->
-<details>
-  <summary>📌 Haz clic aquí para abrir la sección</summary>
 
-</details>
 <!-- FIN DEL INDICE --->
 
 <!-- INICIO DEL CONTENIDO -->
@@ -126,7 +123,9 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
       <li><strong>📈 Asintótico:</strong> Comportamiento con entradas grandes.</li>
     </ul>
   </section>
-
+<br/>
+<br/>
+<h2> DESARROLLO DE CONTENIDOS</h2>
 <!---------------------------------------------------- SEMANA 1 --------------------------------------------------->
 <details>
   <summary>📌 SEMANA 1</summary>
