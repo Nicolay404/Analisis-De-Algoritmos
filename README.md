@@ -125,7 +125,10 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
   </section>
 <br/>
 <br/>
+
+<section align="center">
 <h2> DESARROLLO DE CONTENIDOS</h2>
+</section>
 <!---------------------------------------------------- SEMANA 1 --------------------------------------------------->
 <details>
   <summary><h2>📌 SEMANA 1</h2></summary>
