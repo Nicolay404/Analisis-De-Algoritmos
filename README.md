@@ -421,7 +421,79 @@ La notación para el "orden de" (<em>O grande</em>) es fundamental para analizar
   ---
 
 </details>
+
+
+ <details>
+  <summary><h2>📌 SEMANA 7</h2></summary>
+   
+   ## 🧮 3.2. Análisis del Caso Medio
+
+
+El análisis del caso medio evalúa el rendimiento promedio de un algoritmo bajo una distribución típica de entradas. Es ideal para entender cómo se comporta un algoritmo en escenarios reales. 🌍
+
+¿Cómo funciona? 🔍
+
+Define una distribución de probabilidad para las entradas (ej. uniformemente aleatoria).
+
+Calcula el costo (tiempo o espacio) para cada entrada posible.
+
+Promedia los costos ponderados por su probabilidad.
+
+Ejemplo 📈: En QuickSort, el caso medio tiene complejidad O(n log n), asumiendo particiones balanceadas, aunque el caso peor es O(n²).
+
+¿Por qué importa? 💡: Proporciona una visión realista del rendimiento, pero depende de suposiciones sobre las entradas.
+
+ ## ⚖️ 3.3. Análisis Amortizado
+
+El análisis amortizado calcula el costo promedio de una secuencia de operaciones, útil cuando algunas operaciones son costosas pero poco frecuentes. 🔄
+
+Métodos principales 🛠️:
+
+Método agregado: Suma el costo total de ( n ) operaciones y divide entre ( n ).
+
+Método del banco: Asigna "créditos" a operaciones baratas para cubrir las costosas.
+
+Método del potencial: Usa una función para modelar el estado del sistema.
+
+Ejemplo 📋: En una lista dinámica (como ArrayList), añadir un elemento es usualmente O(1), pero redimensionar es O(n). El costo amortizado por inserción es O(1).
+
+¿Por qué importa? 💡: Da una perspectiva más justa del rendimiento en estructuras dinámicas.
+
+ ## 🔁 3.4. Recurrencias
+
+Las recurrencias son ecuaciones que describen el tiempo de ejecución de algoritmos recursivos, comunes en enfoques de divide y conquista. 🧩
+
+Forma general 📝: [ T(n) = a \cdot T(n/b) + f(n) ] Donde:
+
+( T(n) ): Tiempo para entrada de tamaño ( n ).
+
+( a ): Número de subproblemas.
+
+( n/b ): Tamaño de cada subproblema.
+
+( f(n) ): Costo de combinar soluciones.
+
+Métodos de resolución 🧠:
+
+Árbol de recursión: Suma costos por nivel del árbol.
+
+Sustitución: Adivina una solución y verifica por inducción.
+
+Teorema maestro: Aplica reglas para recurrencias polinómicas:
+
+Si ( f(n) = O(n^c) ) y ( c < \log_b a ), entonces ( T(n) = O(n^{\log_b a}) ).
+
+Si ( c = \log_b a ), entonces ( T(n) = O(n^c \log n) ).
+
+Si ( c > \log_b a ), entonces ( T(n) = O(f(n)) ).
+
+Ejemplo 📉: Para MergeSort, ( T(n) = 2T(n/2) + O(n) ), resolviendo con el teorema maestro da O(n log n).
+
+¿Por qué importa? 💡: Permite analizar algoritmos recursivos como MergeSort o QuickSort de forma precisa.
+</details>
+
  
+
 
   <section>
     <h2>📚 Bibliografía</h2>
