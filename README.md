@@ -36,6 +36,10 @@
   <li><a href="#semana-5">📌 Semana 5</a></li>
   <li><a href="#semana-6">📌 Semana 6</a></li>
   <li><a href="#semana-7">📌 Semana 7</a></li>
+   ———————————————————> CARPETAS <———————————————————————
+   <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/427aceb0858350354adbccd7ce4d8c8bb5fb46f8/Diapositivas">📌 Diapositivas</a></li>       
+   <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/427aceb0858350354adbccd7ce4d8c8bb5fb46f8/Libros">📌 Libros</a></li>       
+   <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/427aceb0858350354adbccd7ce4d8c8bb5fb46f8/Tareas">📌 Tareas</a></li> 
 </ul>
 
 
