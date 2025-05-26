@@ -565,6 +565,8 @@ Permite **analizar** algoritmos recursivos como **MergeSort** o **QuickSort** de
   <section>
     <h2>📚 Bibliografía</h2>
     <ul>
+      <li>Brassard, G. & Bratley, P. (2002). Fundamentos de Algoritmia. Prentice Hall. </li>
+       <li>Cormen, T., et al. (2009). Introduction to Algorithms. MIT Press.</li>  
       <li>Etecé (2024). <em>Algoritmo en Informática</em>. Concepto. https://concepto.de/algoritmo-en-informatica/</li>
       <li>Wikipedia (2024). <em>Análisis de algoritmos</em>. https://es.wikipedia.org/wiki/An%C3%A1lisis_de_algoritmos</li>
       <li>Vega, A. <em>Algoritmia elemental</em>. Scribd. https://es.scribd.com/document/214313367/Tema2-Algoritmia-Elemental-Resumen</li>
