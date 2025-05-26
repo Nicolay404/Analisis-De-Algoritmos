@@ -1,10 +1,13 @@
-<h1 align="center"> ANÁLISIS DE ALGORITMOS <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<div align="center">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Georgia&color=%2a2bef&size=32&center=true&vCenter=true&width=600&height=50&lines=ANALISIS+DE+ALGORITMOS" alt="Headline" />
+    </div>
+
 
 <div align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXN4aGx2ZjVnc2w5emJ2dXdyYm9panEwdWxmN2Z4dXZ4NDVwaGg5eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" width="300">
 </div>
 
-<h3></strong> <em>Diego Nicolay Jiménez Carrión - 💎</em></h3>
+<h3></strong> <em>Diego Nicolay Jiménez Carrión</em></h3>
 
 <hr>
 
@@ -134,6 +137,21 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
   </section>
 <br/>
 <br/>
+
+<!-- VIDEO SOBRE ALGORITMOS-->
+
+<div align="center">
+  <p> PARA MEJOR COMPRENSIÓN REVISA EL SIGUIENTE VIDEO SOBRE ALGORITMOS 👇🏻 </p>
+  <a href="https://youtu.be/U3CGMyjzlvM" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/U3CGMyjzlvM/0.jpg" alt="Miniatura del video" width="500">
+  </a>
+  <br/>
+  <a href="https://youtu.be/U3CGMyjzlvM" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/▶️ Ver en YouTube-red?style=for-the-badge&logo=youtube" alt="Ver en YouTube">
+  </a>
+</div>
+
+
 
 <section align="center">
 <h2> DESARROLLO DE CONTENIDOS</h2>
