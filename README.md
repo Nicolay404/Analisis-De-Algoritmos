@@ -523,7 +523,9 @@ Ejemplo 📉: Para MergeSort, ( T(n) = 2T(n/2) + O(n) ), resolviendo con el teor
 </details>
 
  
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 
   <section>
     <h2>📚 Bibliografía</h2>
@@ -537,5 +539,8 @@ Ejemplo 📉: Para MergeSort, ( T(n) = 2T(n/2) + O(n) ), resolviendo con el teor
       <li>Wikipedia (2025). <em>Eficiencia algorítmica</em>. https://es.wikipedia.org/wiki/Eficiencia_algor%C3%ADtmica</li>
     </ul>
   </section>
+  <div align="right">
+  <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 </body>
 </html>
