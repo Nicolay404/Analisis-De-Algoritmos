@@ -22,9 +22,18 @@
   </p>
 </div>
 
-<!-- INICIO DEL INDICE -->
 
-<!-- FIN DEL INDICE --->
+<h2 id="table-of-contents">📑 Índice de Contenidos</h2>
+<ul>
+  <li><a href="#semana-1">📌 Semana 1</a></li>
+  <li><a href="#semana-2">📌 Semana 2</a></li>
+  <li><a href="#semana-3">📌 Semana 3</a></li>
+  <li><a href="#semana-4">📌 Semana 4</a></li>
+  <li><a href="#semana-5">📌 Semana 5</a></li>
+  <li><a href="#semana-6">📌 Semana 6</a></li>
+  <li><a href="#semana-7">📌 Semana 7</a></li>
+</ul>
+
 
 <!-- INICIO DEL CONTENIDO -->
   <h1>📚 ALGORITMOS Y ANÁLISIS</h1>
@@ -131,7 +140,7 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
 </section>
 <!---------------------------------------------------- SEMANA 1 --------------------------------------------------->
 <details>
-  <summary><h2>📌 SEMANA 1</h2></summary>
+  <summary><h2 id="semana-1">📌 Semana 1</h2></summary>
   <h2>🌱 1. Algoritmia elemental</h2>
     <p>
       Introduce conceptos básicos como eficiencia, análisis de casos y algoritmos simples (búsqueda lineal, binaria, ordenamientos). Por ejemplo, la búsqueda lineal recorre todos los elementos hasta encontrar el objetivo, mientras que la búsqueda binaria divide el espacio de búsqueda a la mitad en cada paso, siendo más eficiente en listas ordenadas.
@@ -175,12 +184,16 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
       Por lo tanto, la fórmula es válida para todo n.
     </p>
   </section>
-</details>
-  <section>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
+
+</details><section>
     
 <!---------------------------------------------------- SEMANA 2 --------------------------------------------------->
   <details>
-  <summary><h2>📌 SEMANA 2</h2></summary>
+  <summary><h2 id="semana-2">📌 Semana 2</h2></summary>
    <section>
     <h2>⚡ 1.2 Eficiencia de los algoritmos</h2>
     <ul>
@@ -203,11 +216,14 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
     <p>
       <strong>Ejemplo:</strong> En ordenamiento por inserción, el caso promedio considera una lista aleatoria sin orden predefinido, con una complejidad de O(n²), mientras que el mejor caso (lista ya ordenada) es O(n).
     </p>
+    <div align="right">
+  <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
   </section>
 </details>
 <!---------------------------------------------------- SEMANA 3 --------------------------------------------------->
 <details>
-  <summary><h2>📌 SEMANA 3</h2></summary>
+  <summary><h2 id="semana-3">📌 Semana 3</h2></summary>
   <div>
     <p><h2>1.4. Caso peor</h2></p>
     <p>En el análisis de algoritmos el caso peor se refiere al escenario en el que un algoritmo realiza la mayor cantidad de operaciones posibles para una entrada de tamaño. Se analiza cuánto tiempo o cuántos recursos puede llegar a consumir el algoritmo en la situación más desfavorable</p>
@@ -245,6 +261,9 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
         Permite cuantificar y comparar algoritmos de manera objetiva, sin depender del hardware o de implementaciones específicas.
       </p>
   </div>
+  <div align="right">
+  <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 </details>
 
 <!---------------------------------------------------- SEMANA 4 --------------------------------------------------->
@@ -333,11 +352,14 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
 La notación para el "orden de" (<em>O grande</em>) es fundamental para analizar, comparar y seleccionar algoritmos en computación, ya que permite describir de manera estandarizada y simplificada cómo crecen los recursos requeridos por un algoritmo en función del tamaño de la entrada.</p>
 
 </div>
+<div align="right">
+  <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 </details>
 
 <!---------------------------------------------------- SEMANA 5 --------------------------------------------------->
 <details>
-  <summary><h2>📌 SEMANA 5</h2></summary>
+  <summary><h2 id="semana-5">📌 Semana 5</h2></summary>
   <div>
   
   ## 2.2 Notación Omega (Ω)
@@ -384,12 +406,15 @@ La notación para el "orden de" (<em>O grande</em>) es fundamental para analizar
   
   </div>
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 </details>
 
 
 <!---------------------------------------------------- SEMANA 6 --------------------------------------------------->
 <details>
-  <summary><h2>📌 SEMANA 6</h2></summary>
+  <summary><h2 id="semana-6">📌 Semana 6</h2></summary>
       <div>
   
   ## 3.1 Estructuras de control
@@ -422,12 +447,14 @@ La notación para el "orden de" (<em>O grande</em>) es fundamental para analizar
   </ul>
   
   ---
-
+<div align="right">
+  <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 </details>
 
-
+<!---------------------------------------------------- SEMANA 7 --------------------------------------------------->
  <details>
-  <summary><h2>📌 SEMANA 7</h2></summary>
+  <summary><h2 id="semana-7">📌 Semana 7</h2></summary>
    
    ## 🧮 3.2. Análisis del Caso Medio
 
