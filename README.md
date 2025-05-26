@@ -249,200 +249,170 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
 <!---------------------------------------------------- SEMANA 3 --------------------------------------------------->
 <details>
   <summary><h2 id="semana-3">📌 SEMANA 3</h2></summary>
-  <div>
-    <p><h2>1.4. Caso peor</h2></p>
-    <p>En el análisis de algoritmos el caso peor se refiere al escenario en el que un algoritmo realiza la mayor cantidad de operaciones posibles para una entrada de tamaño. Se analiza cuánto tiempo o cuántos recursos puede llegar a consumir el algoritmo en la situación más desfavorable</p>
-    <p> <h3>Porque es importante?</h3></p>
-    <ul>
-        <li><p> GARANTÍA DE RENDIMIENTO: Permite asegurar que, sin importar la entrada, el algoritmo nunca será más lento que el tiempo calculado en el caso peor.</p></li>
-        <li> COMPARACIÓN: Es útil para comparar algoritmos y elegir el más eficiente en situaciones críticas.</li>
-        <br/>
-        <p> EJEMPLO:
-          En la búsqueda lineal, el caso peor ocurre cuando el elemento buscado está al final del arreglo o no existe, lo que implica recorrer todos los elementos.</p>
-    </ul>
-    <p><h3>Notación</h3></p>
-    <p>Se utiliza la notación O grande (Big O) para expresar el crecimiento del tiempo de ejecución en el caso peor
-      Ejemplo: La búsqueda lineal tiene un caso peor de O(n)
-    </p>
-  </div>
+        
+  ### ⚠️ 1.4. Caso Peor
 
-  <div>
-       <p>
-         <h2>1.5. Operación elemental</h2>
-       </p>
-      <p>
-        Una operación elemental es la acción más básica y representativa que realiza un algoritmo y que se repite durante su ejecución. Es la unidad de medida que se utiliza para analizar el costo de un algoritmo.
-      </p>
-      <ul>
-        <li>SIMPLICIDAD: Generalmente es una operación aritmética, una comparación, un acceso a memoria, etc.</li>
-        <li>REPETICIÓN: Se elige la operación que más veces se repite en el algoritmo, ya que es la que más impacta en el tiempo total de ejecución.</li>
-        <li>INDEPENDENCIA: Se asume que cada operación elemental toma un tiempo constante.</li>
-      </ul>
-      <p>EJEMPLO:
-        En el algoritmo de búsqueda lineal, la operación elemental suele ser la comparación entre el elemento buscado y el elemento actual del arreglo.
-      </p>
-      <p>
-        <h3>PORQUE ES IMPORTANTE?</h3>
-        Permite cuantificar y comparar algoritmos de manera objetiva, sin depender del hardware o de implementaciones específicas.
-      </p>
-  </div>
+En el **análisis de algoritmos**, el **caso peor** se refiere al escenario en el que un algoritmo realiza la **mayor cantidad de operaciones posibles** 🏗️ para una entrada de tamaño determinado. Se analiza **cuánto tiempo** ⏳ o **cuántos recursos** puede llegar a consumir el algoritmo en la **situación más desfavorable**. 🚨
+
+#### 🔍 ¿Por qué es importante?
+
+- ✅ **Garantía de rendimiento:** Permite asegurar que, **sin importar la entrada**, el algoritmo **nunca será más lento** que el tiempo calculado en el caso peor. 📈  
+- ⚖️ **Comparación:** Es útil para **comparar algoritmos** y elegir el **más eficiente** en situaciones críticas. 🏎️
+
+#### 📌 Ejemplo
+
+En la **búsqueda lineal**, el caso peor ocurre cuando el **elemento buscado está al final** del arreglo o **no existe**, lo que implica recorrer **todos los elementos** 🔄.
+
+#### 📏 Notación
+
+Se utiliza la **notación O grande (Big O)** para expresar el **crecimiento del tiempo de ejecución** en el **caso peor**.
+
+- Ejemplo: 🔍 **La búsqueda lineal** tiene un **caso peor de O(n)**.
+
+---
+
+### 🔢 1.5. Operación Elemental
+
+Una **operación elemental** es la **acción más básica** ⚙️ y representativa que **realiza un algoritmo** y que **se repite durante su ejecución**. Es la **unidad de medida** que se utiliza para **analizar el costo** de un algoritmo. 🔄
+
+#### 🛠️ Características
+
+- 🎯 **Simplicidad:** Generalmente es una **operación aritmética**, una **comparación**, un **acceso a memoria**, etc.  
+- ♻️ **Repetición:** Se elige la operación que **más veces se repite** en el algoritmo, ya que **es la que más impacta** en el tiempo total de ejecución.  
+- ⚡ **Independencia:** Se asume que **cada operación elemental** toma **un tiempo constante**.
+
+#### 📌 Ejemplo
+
+En el **algoritmo de búsqueda lineal**, la **operación elemental** suele ser la **comparación entre el elemento buscado y el elemento actual** del arreglo. 🔍
+
+#### 💡 ¿Por qué es importante?
+
+Permite **cuantificar y comparar algoritmos** de manera **objetiva**, **sin depender del hardware** o de implementaciones específicas. 💻📊
+
+---
 
   <div align="center">
     <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzRiZjQyZXJ4dXh0YjIzbWplNHFueDNmb3cxbXV0aGZ0Mm41dXpyeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11kEuHSQAXXiGQ/giphy.gif" width="300">
   </div>
-  
-  <div align="right">
-  <b><a href="#table-of-contents">↥ back to top</a></b>
-</div>
-</details>
 
+  ---  
+  <div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+  </div>
+  
+</details>
 <!---------------------------------------------------- SEMANA 4 --------------------------------------------------->
 <details>
-  <summary><h2 id="semana-4">📌 SEMANA 4<h2></summary>
+  <summary><h2 id="semana-4">📌 SEMANA 4</h2></summary>
   <div>
 
-## 2.1 Notación para el "orden de"
+ ## 📊 2.1 Notación para el "orden de"
 
-<p>La <strong>notación para el "orden de"</strong> en análisis de algoritmos se refiere principalmente a la notación Big-O (<em>O grande</em>), que es una herramienta matemática utilizada para describir cómo crece el tiempo de ejecución o el uso de recursos de un algoritmo en función del tamaño de la entrada.</p>
+La **notación para el "orden de"** en análisis de algoritmos se refiere principalmente a la **notación Big-O** (_O grande_), que es una herramienta matemática utilizada para describir **cómo crece** el tiempo de ejecución ⏳ o el uso de recursos de un algoritmo en función del tamaño de la entrada. 🚀
 
-<p><strong>¿Qué expresa la notación Big-O?</strong></p>
-<ul>
-  <li>Expresa el <em>orden de crecimiento</em> de la función que representa el tiempo de ejecución o el espacio utilizado por un algoritmo, a medida que el tamaño de la entrada (n) tiende a infinito.</li>
-  <li>Permite comparar la eficiencia de diferentes algoritmos, especialmente cuando se enfrentan a entradas muy grandes.</li>
-</ul>
+### 🔍 ¿Qué expresa la notación Big-O?
 
-<p><strong>¿Cómo se utiliza?</strong></p>
-<ul>
-  <li>Se escribe como <code>O(f(n))</code>, donde <code>f(n)</code> es una función que describe cómo crecen los recursos requeridos en función de <code>n</code>.</li>
-  <li>Por ejemplo, <code>O(1)</code> significa tiempo constante (no depende de <code>n</code>), <code>O(n)</code> es lineal, <code>O(n^2)</code> es cuadrático, y así sucesivamente.</li>
-</ul>
+- Expresa el **orden de crecimiento** de la función que representa el **tiempo de ejecución** o el **espacio utilizado** por un algoritmo, a medida que el tamaño de la entrada (`n`) tiende a infinito. ♾️  
+- Permite **comparar la eficiencia** de diferentes algoritmos, especialmente cuando se enfrentan a **entradas muy grandes**. 🏗️
 
-<p><strong>Ejemplos de órdenes comunes:</strong></p>
+### 🛠️ ¿Cómo se utiliza?
 
-<table>
-  <thead>
-    <tr>
-      <th>Notación</th>
-      <th>Nombre</th>
-      <th>Ejemplo típico</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>O(1)</td>
-      <td>Constante</td>
-      <td>Acceso a un elemento en un array</td>
-    </tr>
-    <tr>
-      <td>O(log n)</td>
-      <td>Logarítmico</td>
-      <td>Búsqueda binaria</td>
-    </tr>
-    <tr>
-      <td>O(n)</td>
-      <td>Lineal</td>
-      <td>Recorrido de una lista</td>
-    </tr>
-    <tr>
-      <td>O(n log n)</td>
-      <td>Linealítmico</td>
-      <td>Algoritmos de ordenamiento eficientes</td>
-    </tr>
-    <tr>
-      <td>O(n^2)</td>
-      <td>Cuadrático</td>
-      <td>Algoritmos de ordenamiento simples</td>
-    </tr>
-    <tr>
-      <td>O(2^n)</td>
-      <td>Exponencial</td>
-      <td>Algoritmos de fuerza bruta</td>
-    </tr>
-    <tr>
-      <td>O(n!)</td>
-      <td>Factorial</td>
-      <td>Algoritmos de permutaciones</td>
-    </tr>
-  </tbody>
-</table>
+- Se escribe como `O(f(n))`, donde `f(n)` es una función que describe **cómo crecen los recursos requeridos** en función de `n`. 🔄  
+- Ejemplos:
+  - 📌 `O(1)` → Tiempo constante (no depende de `n`).  
+  - ⚡ `O(n)` → Crecimiento **lineal**.  
+  - 🧩 `O(n^2)` → Crecimiento **cuadrático**.
 
-<p><strong>¿Por qué es útil?</strong></p>
-<ul>
-  <li>Simplifica el análisis ignorando constantes y términos de menor orden, enfocándose solo en el comportamiento dominante cuando <code>n</code> es grande.</li>
-  <li>Ayuda a anticipar cómo escalará un algoritmo y a tomar decisiones informadas sobre cuál es más adecuado según el problema y el tamaño de los datos.</li>
-</ul>
+### 📌 Ejemplos de órdenes comunes
 
-<p><strong>Reglas básicas al usar la notación Big-O:</strong></p>
-<ul>
-  <li>Se omiten constantes y términos de menor orden.</li>
-  <li>Solo se considera el término de mayor crecimiento.</li>
-</ul>
+| 🔢 Notación | 📈 Nombre           | 🔍 Ejemplo típico                       |
+|------------|---------------------|-----------------------------------------|
+| O(1)       | Constante ⚡         | Acceso a un elemento en un array 📂     |
+| O(log n)   | Logarítmico 🔢       | Búsqueda binaria 🔎                     |
+| O(n)       | Lineal 🚀            | Recorrido de una lista 📜               |
+| O(n log n) | Linealítmico 📊      | Algoritmos de ordenamiento eficientes ⚙️ |
+| O(n^2)     | Cuadrático 🏗️        | Algoritmos de ordenamiento simples 🔄    |
+| O(2^n)     | Exponencial ♾️       | Algoritmos de fuerza bruta 💥           |
+| O(n!)      | Factorial 🔢         | Algoritmos de permutaciones 🔄          |
 
-<p><strong>En resumen:</strong><br/>
-La notación para el "orden de" (<em>O grande</em>) es fundamental para analizar, comparar y seleccionar algoritmos en computación, ya que permite describir de manera estandarizada y simplificada cómo crecen los recursos requeridos por un algoritmo en función del tamaño de la entrada.</p>
+### 💡 ¿Por qué es útil?
 
-<p align="center"> 
-      <img src="https://github.com/user-attachments/assets/0725b85c-0b47-4482-bba7-72cc3b004576" alt="Notacion"  width=600> 
+- 🎯 **Simplifica el análisis**, ignorando constantes y términos de menor orden.  
+- ⚖️ **Ayuda a anticipar** cómo escalará un algoritmo y tomar decisiones informadas. 🏗️
+
+### 📝 Reglas básicas al usar la notación Big-O:
+
+- ❌ Se omiten **constantes** y términos de menor orden.  
+- ✅ Solo se considera el **término de mayor crecimiento**.
+
+### 🏁 En resumen:
+
+La **notación para el "orden de"** (_O grande_) es fundamental para **analizar, comparar y seleccionar algoritmos** en computación, ya que permite describir de manera **estandarizada** y **simplificada** cómo **crecen** los recursos requeridos por un algoritmo en función del tamaño de la entrada. 🔄
+
+---
+
+  <p align="center">  
+      <img src="https://github.com/user-attachments/assets/0725b85c-0b47-4482-bba7-72cc3b004576" alt="Notación Big-O" width=600>  
   </p>
 
-
-</div>
-<div align="right">
-  <b><a href="#table-of-contents">↥ back to top</a></b>
-</div>
+  </div>
+  <div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+  </div>
 </details>
 
 <!---------------------------------------------------- SEMANA 5 --------------------------------------------------->
 <details>
   <summary><h2 id="semana-5">📌 SEMANA 5</h2></summary>
   <div>
-  
-  ## 2.2 Notación Omega (Ω)
-  
-  <p>La <strong>notación Omega grande</strong> (Ω) se usa para establecer una <em>cota inferior asintótica</em> del tiempo de ejecución de un algoritmo. Es decir, indica que el algoritmo toma <em>por lo menos</em> cierta cantidad de tiempo para entradas suficientemente grandes.</p>
-  
-  <p>Formalmente, decimos que una función <code>f(n)</code> es <code>Ω(g(n))</code> si existen constantes positivas <code>c</code> y <code>n₀</code> tales que para todo <code>n ≥ n₀</code> se cumple:</p>
-  
-  \[ f(n) \geq c \cdot g(n) \]
-  
-  <p>Esto significa que <code>f(n)</code> crece al menos tan rápido como <code>g(n)</code> para valores grandes de <code>n</code>.</p>
-  
-  <p>La notación Ω es útil para describir el <em>mejor caso</em> o para dar una garantía mínima sobre el tiempo que un algoritmo necesitará.</p>
-  
-  <p>Por ejemplo, el tiempo de ejecución del peor caso de la búsqueda binaria es <code>Ω(1)</code>, porque al menos toma un tiempo constante.</p>
-  
-  ---
-  
-  ## 2.3 Notación Theta (Θ)
-  
-  <p>La <strong>notación Theta</strong> (Θ) se utiliza para expresar una <em>cota ajustada o estricta</em> del crecimiento de la función de tiempo de un algoritmo. Esto significa que la función está acotada tanto por arriba como por abajo por la misma función asintótica.</p>
-  
-  <p>Formalmente, <code>f(n)</code> es <code>Θ(g(n))</code> si existen constantes positivas <code>c₁, c₂</code> y <code>n₀</code> tales que para todo <code>n ≥ n₀</code>:</p>
-  
-  \[ c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n) \]
-  
-  <p>Esto implica que <code>f(n)</code> crece al mismo ritmo que <code>g(n)</code> para valores grandes de <code>n</code>.</p>
-  
-  <p>La notación Θ es la más precisa para describir la complejidad temporal o espacial de un algoritmo, ya que indica el comportamiento exacto en términos asintóticos.</p>
-  
-  ---
-  
-  ## 2.4 Notación asintótica condicional
-  
-  <p>La <strong>notación asintótica condicional</strong> se refiere a la aplicación de las notaciones asintóticas (O, Ω, Θ) bajo ciertas condiciones o restricciones sobre el tamaño de la entrada o parámetros específicos del problema.</p>
-  
-  <p>Por ejemplo, un algoritmo puede tener un comportamiento diferente según el rango o la forma de la entrada, y la notación condicional permite expresar estas diferencias.</p>
-  
-  <p>Un caso típico es cuando el análisis se hace para <em>n suficientemente grande</em>, o cuando se evalúa la complejidad solo para entradas que cumplen ciertas propiedades (como ser potencias de dos, o tener una estructura particular).</p>
-  
-  <p>Esta notación es útil para describir con mayor precisión el comportamiento de un algoritmo en situaciones específicas, y para ajustar las cotas asintóticas según condiciones particulares.</p>
-  
-  ---
-  
+
+
+## 🔍 2.2 **Notación Omega (Ω)**
+
+La **notación Omega grande** (Ω) se usa para establecer una **cota inferior asintótica** del tiempo de ejecución de un algoritmo. ⏳ Esto significa que el algoritmo toma **por lo menos** cierta cantidad de tiempo para entradas suficientemente grandes. 🏗️
+
+Formalmente, decimos que una función `f(n)` es `Ω(g(n))` si existen constantes positivas `c` y `n₀` tales que para todo `n ≥ n₀` se cumple:
+
+**f(n) ≥ c · g(n)**
+
+Esto significa que `f(n)` crece al **menos tan rápido** como `g(n)` para valores grandes de `n`. 📈
+
+La notación Ω es útil para describir el **mejor caso** 🏆 o para dar una garantía mínima sobre el tiempo que un algoritmo necesitará.
+
+### 📌 Ejemplo
+
+El tiempo de ejecución del peor caso de la **búsqueda binaria** es `Ω(1)`, porque al menos toma un tiempo constante. ⚡
+
+---
+
+## ⚖️ 2.3 **Notación Theta (Θ)**
+
+La **notación Theta** (Θ) se utiliza para expresar una **cota ajustada** 🧐 del crecimiento de la función de tiempo de un algoritmo. Esto significa que la función está **acotada tanto por arriba como por abajo** por la misma función asintótica. 🔄
+
+Formalmente, `f(n)` es `Θ(g(n))` si existen constantes positivas `c₁`, `c₂` y `n₀` tales que para todo `n ≥ n₀`:
+
+**c₁ · g(n) ≤ f(n) ≤ c₂ · g(n)**
+
+Esto implica que `f(n)` crece **al mismo ritmo** que `g(n)` para valores grandes de `n`. 📈
+
+La notación Θ es la más **precisa** 🎯 para describir la **complejidad temporal o espacial** de un algoritmo, ya que indica el comportamiento **exacto** en términos asintóticos.
+
+---
+
+## 🔁 2.4 **Notación asintótica condicional**
+
+La **notación asintótica condicional** se refiere a la aplicación de las notaciones asintóticas (`O`, `Ω`, `Θ`) bajo **ciertas condiciones** o restricciones sobre el **tamaño de la entrada** o parámetros específicos del problema. 📊
+
+Por ejemplo, un algoritmo puede tener un **comportamiento diferente** según el **rango o la forma de la entrada**, y la notación condicional permite expresar estas diferencias. 🔍
+
+Un caso típico es cuando el análisis se hace para **n suficientemente grande** 🌍, o cuando se evalúa la complejidad solo para entradas que cumplen **ciertas propiedades** (como ser **potencias de dos** o tener una **estructura particular**).
+
+Esta notación es útil para describir con **mayor precisión** el comportamiento de un algoritmo en situaciones específicas y **ajustar las cotas asintóticas** según condiciones particulares. ✨
+
   </div>
 
-  <p align="center"> 
-      <img src="https://github.com/user-attachments/assets/b63decc1-3ea4-4043-83ab-f19bd72e62ba" alt="Notacion"  width=600> 
+  <p align="center">  
+      <img src="https://github.com/user-attachments/assets/b63decc1-3ea4-4043-83ab-f19bd72e62ba" alt="Notación Asintótica" width=600>  
   </p>
 
   <div align="right">
@@ -451,123 +421,136 @@ La notación para el "orden de" (<em>O grande</em>) es fundamental para analizar
 </details>
 
 
-
 <!---------------------------------------------------- SEMANA 6 --------------------------------------------------->
 <details>
   <summary><h2 id="semana-6">📌 SEMANA 6</h2></summary>
-      <div>
-  
-  ## 3.1 Estructuras de control
-  
-  <p>Las <strong>estructuras de control</strong> en programación son herramientas fundamentales que permiten controlar el flujo de ejecución de un programa o algoritmo. Gracias a ellas, el código puede seguir un flujo lógico, tomar decisiones, repetir acciones o continuar de forma secuencial, adaptándose a diferentes condiciones y situaciones.</p>
-  
-  <p>En esencia, las estructuras de control definen el orden en que se ejecutan las instrucciones dentro de un programa, permitiendo que éste no se limite a una ejecución lineal sino que pueda variar según las necesidades.</p>
-  
-  ---
-  
-  ### Tipos principales de estructuras de control
-  
-  <p>Las estructuras de control se clasifican en tres categorías básicas:</p>
-  
-  <ul>
-    <li><strong>Estructuras secuenciales:</strong> Son las más simples, donde las instrucciones se ejecutan una tras otra en el orden en que están escritas. Este tipo de estructura es la base de cualquier algoritmo.</li>
-    <li><strong>Estructuras condicionales o selectivas:</strong> Permiten que el programa tome decisiones y ejecute diferentes bloques de código según se cumplan o no ciertas condiciones. Ejemplos comunes son <code>if</code>, <code>else</code> y <code>switch</code>.</li>
-    <li><strong>Estructuras iterativas o bucles:</strong> Permiten repetir un bloque de código varias veces, ya sea un número determinado de veces o mientras se cumpla una condición. Ejemplos son <code>for</code>, <code>while</code> y <code>do-while</code>.</li>
-  </ul>
-  
-  ---
-  
-  ### Funciones y beneficios de las estructuras de control
-  
-  <ul>
-    <li>Permiten que los programas respondan a diferentes condiciones y datos de entrada.</li>
-    <li>Facilitan la repetición de tareas sin necesidad de duplicar código.</li>
-    <li>Ayudan a modularizar y organizar el código, mejorando su legibilidad y mantenimiento.</li>
-    <li>Son esenciales para la programación estructurada y el desarrollo de algoritmos eficientes.</li>
-  </ul>
+  <div>
+
+
+## 🔄 3.1 **Estructuras de control**
+
+Las **estructuras de control** en programación son herramientas fundamentales que permiten controlar el **flujo de ejecución** de un programa o algoritmo. 🏁 Gracias a ellas, el código puede seguir un **flujo lógico**, tomar decisiones 🤔, repetir acciones 🔁 o continuar de forma secuencial, adaptándose a diferentes condiciones y situaciones.
+
+En esencia, las estructuras de control definen el orden en que se ejecutan las instrucciones dentro de un programa, permitiendo que éste no se limite a una ejecución lineal sino que pueda **variar** según las necesidades. 🔄
+
+---
+
+### 🎭 Tipos principales de estructuras de control
+
+Las estructuras de control se clasifican en **tres categorías** básicas:
+
+- ✅ **Estructuras secuenciales:** Son las más simples, donde las instrucciones se ejecutan una tras otra en el orden en que están escritas. Este tipo de estructura es la base de cualquier algoritmo.
+- 🧐 **Estructuras condicionales o selectivas:** Permiten que el programa **tome decisiones** y ejecute diferentes bloques de código según se cumplan o no ciertas condiciones. Ejemplos comunes son `if`, `else` y `switch`.
+- 🔄 **Estructuras iterativas o bucles:** Permiten **repetir** un bloque de código varias veces, ya sea un número determinado de veces o mientras se cumpla una condición. Ejemplos son `for`, `while` y `do-while`.
+
+---
+
+### 🎯 Funciones y beneficios de las estructuras de control
+
+- 🚀 **Permiten que los programas respondan** a diferentes condiciones y datos de entrada.
+- 🔁 **Facilitan la repetición de tareas** sin necesidad de duplicar código.
+- 🛠️ **Ayudan a modularizar y organizar** el código, mejorando su legibilidad y mantenimiento.
+- 💡 **Son esenciales para la programación estructurada** y el desarrollo de **algoritmos eficientes**.
+
+
   <div align="center">
     <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWh0cmFob3E3cnl2dHV3MXJ3OGNobTQ0MWt4OXZpMjh5NjFjM2s2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HVcPS8srK742xYwVav/giphy.gif" width="300">
   </div>
-  
-  ---
-<div align="right">
-  <b><a href="#table-of-contents">↥ back to top</a></b>
-</div>
+
+  ---  
+  <div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+  </div>
+  </div>
 </details>
 
 <!---------------------------------------------------- SEMANA 7 --------------------------------------------------->
- <details>
+<details>
   <summary><h2 id="semana-7">📌 SEMANA 7</h2></summary>
-   
-   ## 🧮 3.2. Análisis del Caso Medio
+  <div>
 
+  ## 🧮 3.2. **Análisis del Caso Medio**
 
 El análisis del caso medio evalúa el rendimiento promedio de un algoritmo bajo una distribución típica de entradas. Es ideal para entender cómo se comporta un algoritmo en escenarios reales. 🌍
 
-¿Cómo funciona? 🔍
+### 🔍 ¿Cómo funciona?
 
-Define una distribución de probabilidad para las entradas (ej. uniformemente aleatoria).
+- Define una distribución de probabilidad para las entradas (ej. uniformemente aleatoria).
+- Calcula el **costo** (tiempo o espacio) para cada entrada posible.
+- Promedia los costos ponderados por su probabilidad.
 
-Calcula el costo (tiempo o espacio) para cada entrada posible.
+### 📈 Ejemplo
 
-Promedia los costos ponderados por su probabilidad.
+En **QuickSort**, el caso medio tiene complejidad `O(n log n)`, asumiendo particiones balanceadas, aunque el caso peor es `O(n²)`.
 
-Ejemplo 📈: En QuickSort, el caso medio tiene complejidad O(n log n), asumiendo particiones balanceadas, aunque el caso peor es O(n²).
+### 💡 ¿Por qué importa?
 
-¿Por qué importa? 💡: Proporciona una visión realista del rendimiento, pero depende de suposiciones sobre las entradas.
+Proporciona una visión **realista** del rendimiento, pero depende de suposiciones sobre las entradas.
 
- ## ⚖️ 3.3. Análisis Amortizado
+---
 
-El análisis amortizado calcula el costo promedio de una secuencia de operaciones, útil cuando algunas operaciones son costosas pero poco frecuentes. 🔄
+## ⚖️ 3.3. **Análisis Amortizado**
 
-Métodos principales 🛠️:
+El análisis amortizado calcula el **costo promedio** de una secuencia de operaciones, útil cuando algunas operaciones son costosas pero poco frecuentes. 🔄
 
-Método agregado: Suma el costo total de ( n ) operaciones y divide entre ( n ).
+### 🛠️ Métodos principales
 
-Método del banco: Asigna "créditos" a operaciones baratas para cubrir las costosas.
+- **Método agregado:** Suma el costo total de `n` operaciones y divide entre `n`.
+- **Método del banco:** Asigna "créditos" a operaciones baratas para cubrir las costosas.
+- **Método del potencial:** Usa una función para modelar el estado del sistema.
 
-Método del potencial: Usa una función para modelar el estado del sistema.
+### 📋 Ejemplo
 
-Ejemplo 📋: En una lista dinámica (como ArrayList), añadir un elemento es usualmente O(1), pero redimensionar es O(n). El costo amortizado por inserción es O(1).
+En una lista dinámica (como **ArrayList**), añadir un elemento es usualmente `O(1)`, pero redimensionar es `O(n)`. El **costo amortizado** por inserción es `O(1)`.
 
-¿Por qué importa? 💡: Da una perspectiva más justa del rendimiento en estructuras dinámicas.
+### 💡 ¿Por qué importa?
 
- ## 🔁 3.4. Recurrencias
+Da una perspectiva **más justa** del rendimiento en estructuras dinámicas.
 
-Las recurrencias son ecuaciones que describen el tiempo de ejecución de algoritmos recursivos, comunes en enfoques de divide y conquista. 🧩
+---
 
-Forma general 📝: [ T(n) = a \cdot T(n/b) + f(n) ] Donde:
+## 🔁 3.4. **Recurrencias**
 
-( T(n) ): Tiempo para entrada de tamaño ( n ).
+Las recurrencias son ecuaciones que describen el **tiempo de ejecución** de algoritmos recursivos, comunes en enfoques de divide y conquista. 🧩
 
-( a ): Número de subproblemas.
+### 📝 Forma general
 
-( n/b ): Tamaño de cada subproblema.
+`T(n) = a ⋅ T(n/b) + f(n)`
 
-( f(n) ): Costo de combinar soluciones.
+- **T(n):** Tiempo para entrada de tamaño `n`.
+- **a:** Número de subproblemas.
+- **n/b:** Tamaño de cada subproblema.
+- **f(n):** Costo de combinar soluciones.
 
-Métodos de resolución 🧠:
+### 🧠 Métodos de resolución
 
-Árbol de recursión: Suma costos por nivel del árbol.
+- **Árbol de recursión:** Suma costos por nivel del árbol.
+- **Sustitución:** Adivina una solución y verifica por inducción.
+- **Teorema maestro:** Aplica reglas para recurrencias polinómicas:
 
-Sustitución: Adivina una solución y verifica por inducción.
+  - Si `f(n) = O(n^c)` y `c < log_b a`, entonces `T(n) = O(n^{log_b a})`.
+  - Si `c = log_b a`, entonces `T(n) = O(n^c log n)`.
+  - Si `c > log_b a`, entonces `T(n) = O(f(n))`.
 
-Teorema maestro: Aplica reglas para recurrencias polinómicas:
+### 📉 Ejemplo
 
-Si ( f(n) = O(n^c) ) y ( c < \log_b a ), entonces ( T(n) = O(n^{\log_b a}) ).
+Para **MergeSort**, `T(n) = 2T(n/2) + O(n)`. Resolviendo con el **teorema maestro**, da `O(n log n)`.
 
-Si ( c = \log_b a ), entonces ( T(n) = O(n^c \log n) ).
+### 💡 ¿Por qué importa?
 
-Si ( c > \log_b a ), entonces ( T(n) = O(f(n)) ).
+Permite **analizar** algoritmos recursivos como **MergeSort** o **QuickSort** de forma precisa.
 
-Ejemplo 📉: Para MergeSort, ( T(n) = 2T(n/2) + O(n) ), resolviendo con el teorema maestro da O(n log n).
-
-¿Por qué importa? 💡: Permite analizar algoritmos recursivos como MergeSort o QuickSort de forma precisa.
 
   <div align="center">
     <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG04cmxveTR3MWs5MWFjb3FnaDU3YXR4Z3hmZDhveml3N3h1a3c3ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AUlKe48NxwdzRBaGTC/giphy.gif" width="300">
   </div>
 
+  ---  
+  <div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+  </div>
+  </div>
+</details>
 
 
   <div align="right">
