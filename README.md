@@ -1,8 +1,9 @@
+<!-- TITULO ANIMADO -->
 <div align="center">
         <img src="https://readme-typing-svg.herokuapp.com?font=Georgia&color=%2a2bef&size=32&center=true&vCenter=true&width=600&height=50&lines=ANALISIS+DE+ALGORITMOS" alt="Headline" />
-    </div>
+</div>
 
-
+<!-- ANIMACION DE INICIO -->
 <div align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXN4aGx2ZjVnc2w5emJ2dXdyYm9panEwdWxmN2Z4dXZ4NDVwaGg5eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" width="300">
 </div>
@@ -87,7 +88,8 @@
       La <strong>algoritmia</strong> estudia los algoritmos, enfocándose en su diseño, análisis y aplicación para resolver problemas de manera eficiente. Es una disciplina clave en informática que busca optimizar recursos computacionales.
     </p>
   <p align="center"> 
-  <img src="https://github.com/user-attachments/assets/9020c530-f3e6-4f66-a0d6-f31eaa4123db" alt="Algoritmia"  width=300> </p>
+    <img src="https://github.com/user-attachments/assets/9020c530-f3e6-4f66-a0d6-f31eaa4123db" alt="Algoritmia"  width=300> 
+  </p>
   </section>
 
   <section>
@@ -234,6 +236,7 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
     <p>
       <strong>Ejemplo:</strong> En ordenamiento por inserción, el caso promedio considera una lista aleatoria sin orden predefinido, con una complejidad de O(n²), mientras que el mejor caso (lista ya ordenada) es O(n).
     </p>
+     <p align="center">  <img src="https://github.com/user-attachments/assets/f753a73a-5cd5-44b7-8ec0-819f5c512bcd" alt="Eficiencia" width=400> </p>
     <div align="right">
   <b><a href="#table-of-contents">↥ back to top</a></b>
 </div>
@@ -279,6 +282,11 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
         Permite cuantificar y comparar algoritmos de manera objetiva, sin depender del hardware o de implementaciones específicas.
       </p>
   </div>
+
+  <div align="center">
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzRiZjQyZXJ4dXh0YjIzbWplNHFueDNmb3cxbXV0aGZ0Mm41dXpyeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11kEuHSQAXXiGQ/giphy.gif" width="300">
+  </div>
+  
   <div align="right">
   <b><a href="#table-of-contents">↥ back to top</a></b>
 </div>
@@ -369,6 +377,11 @@ Este análisis es relevante porque permite **optimizar el rendimiento** de los a
 <p><strong>En resumen:</strong><br/>
 La notación para el "orden de" (<em>O grande</em>) es fundamental para analizar, comparar y seleccionar algoritmos en computación, ya que permite describir de manera estandarizada y simplificada cómo crecen los recursos requeridos por un algoritmo en función del tamaño de la entrada.</p>
 
+<p align="center"> 
+      <img src="https://github.com/user-attachments/assets/0725b85c-0b47-4482-bba7-72cc3b004576" alt="Notacion"  width=600> 
+  </p>
+
+
 </div>
 <div align="right">
   <b><a href="#table-of-contents">↥ back to top</a></b>
@@ -424,10 +437,15 @@ La notación para el "orden de" (<em>O grande</em>) es fundamental para analizar
   
   </div>
 
-<div align="right">
-  <b><a href="#table-of-contents">↥ back to top</a></b>
-</div>
+  <p align="center"> 
+      <img src="https://github.com/user-attachments/assets/b63decc1-3ea4-4043-83ab-f19bd72e62ba" alt="Notacion"  width=600> 
+  </p>
+
+  <div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+  </div>
 </details>
+
 
 
 <!---------------------------------------------------- SEMANA 6 --------------------------------------------------->
@@ -463,6 +481,9 @@ La notación para el "orden de" (<em>O grande</em>) es fundamental para analizar
     <li>Ayudan a modularizar y organizar el código, mejorando su legibilidad y mantenimiento.</li>
     <li>Son esenciales para la programación estructurada y el desarrollo de algoritmos eficientes.</li>
   </ul>
+  <div align="center">
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWh0cmFob3E3cnl2dHV3MXJ3OGNobTQ0MWt4OXZpMjh5NjFjM2s2OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HVcPS8srK742xYwVav/giphy.gif" width="300">
+  </div>
   
   ---
 <div align="right">
@@ -538,12 +559,21 @@ Si ( c > \log_b a ), entonces ( T(n) = O(f(n)) ).
 Ejemplo 📉: Para MergeSort, ( T(n) = 2T(n/2) + O(n) ), resolviendo con el teorema maestro da O(n log n).
 
 ¿Por qué importa? 💡: Permite analizar algoritmos recursivos como MergeSort o QuickSort de forma precisa.
+
+  <div align="center">
+    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG04cmxveTR3MWs5MWFjb3FnaDU3YXR4Z3hmZDhveml3N3h1a3c3ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AUlKe48NxwdzRBaGTC/giphy.gif" width="300">
+  </div>
+
+
+
+  <div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+  </div>
+
 </details>
 
  
-<div align="right">
-  <b><a href="#table-of-contents">↥ back to top</a></b>
-</div>
+
 
   <section>
     <h2>📚 Bibliografía</h2>
@@ -560,5 +590,12 @@ Ejemplo 📉: Para MergeSort, ( T(n) = 2T(n/2) + O(n) ), resolviendo con el teor
   <div align="right">
   <b><a href="#table-of-contents">↥ back to top</a></b>
 </div>
+<br/>
+
+  <div align="center">
+    <p> <h2> Y ESO ES TODO AMIGUITOS, SE SEGUIRA CON ACTUALIZACIONES PROXIMAMENTE 👀</h2> </p>
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXZ5ZW4xc2R1a3lkdGtvanRteWltdWwwOGM5bnBiaWFzOTluazJyMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7yojoQtevjOCI/giphy.gif" width="300">
+  </div>
+
 </body>
 </html>
