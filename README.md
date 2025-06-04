@@ -39,7 +39,7 @@
    ———————————————————> CARPETAS <———————————————————————
    <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/427aceb0858350354adbccd7ce4d8c8bb5fb46f8/Diapositivas">📌 Diapositivas</a></li>       
    <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/427aceb0858350354adbccd7ce4d8c8bb5fb46f8/Libros">📌 Libros</a></li>       
-   <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/427aceb0858350354adbccd7ce4d8c8bb5fb46f8/Tareas">📌 Tareas</a></li> 
+   <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/5a17ddcdcceba2ba215aab9675c21b4a68878622/Talleres">📌 Tareas</a></li> 
 </ul>
 
 
