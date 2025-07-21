@@ -36,7 +36,7 @@
   <li><a href="#semana-5">📌 Semana 5</a></li>
   <li><a href="#semana-6">📌 Semana 6</a></li>
   <li><a href="#semana-7">📌 Semana 7</a></li>
-  <li><a href="#semana-8">📌 Semana 8</a></li>
+  <li><a href="#semana-8">📌 Semana 8 - Examen Bimestral</a></li>
   <li><a href="#semana-9">📌 Semana 9</a></li>
   <li><a href="#semana-10">📌 Semana 10</a></li>
   <li><a href="#semana-11">📌 Semana 11</a></li>
@@ -44,7 +44,7 @@
   <li><a href="#semana-13">📌 Semana 13</a></li>
   <li><a href="#semana-14">📌 Semana 14</a></li>
   <li><a href="#semana-15">📌 Semana 15</a></li>
-
+------------------------------------------------------------------
   <!-- ———————————————————> CARPETAS <——————————————————————— -->
   <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/427aceb0858350354adbccd7ce4d8c8bb5fb46f8/Diapositivas">📌 Diapositivas</a></li>       
   <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/427aceb0858350354adbccd7ce4d8c8bb5fb46f8/Libros">📌 Libros</a></li>       
