@@ -760,7 +760,7 @@ Evalúa el rendimiento promedio con base en probabilidad.
 
 <div align="center">
   <a href="https://youtu.be/WJjDr67frtM" target="_blank">
-    <img src="https://img.youtube.com/vi/y6JxYUNfzrM/0.jpg" width="500">
+    <img src="https://img.youtube.com/vi/WJjDr67frtM/0.jpg" width="500">
   </a>
   <br/>
   <a href="https://youtu.be/WJjDr67frtM" target="_blank">
