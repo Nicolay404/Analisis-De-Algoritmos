@@ -36,10 +36,19 @@
   <li><a href="#semana-5">📌 Semana 5</a></li>
   <li><a href="#semana-6">📌 Semana 6</a></li>
   <li><a href="#semana-7">📌 Semana 7</a></li>
-   ———————————————————> CARPETAS <———————————————————————
-   <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/427aceb0858350354adbccd7ce4d8c8bb5fb46f8/Diapositivas">📌 Diapositivas</a></li>       
-   <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/427aceb0858350354adbccd7ce4d8c8bb5fb46f8/Libros">📌 Libros</a></li>       
-   <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/5a17ddcdcceba2ba215aab9675c21b4a68878622/Talleres">📌 Tareas</a></li> 
+  <li><a href="#semana-8">📌 Semana 8</a></li>
+  <li><a href="#semana-9">📌 Semana 9</a></li>
+  <li><a href="#semana-10">📌 Semana 10</a></li>
+  <li><a href="#semana-11">📌 Semana 11</a></li>
+  <li><a href="#semana-12">📌 Semana 12</a></li>
+  <li><a href="#semana-13">📌 Semana 13</a></li>
+  <li><a href="#semana-14">📌 Semana 14</a></li>
+  <li><a href="#semana-15">📌 Semana 15</a></li>
+
+  <!-- ———————————————————> CARPETAS <——————————————————————— -->
+  <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/427aceb0858350354adbccd7ce4d8c8bb5fb46f8/Diapositivas">📌 Diapositivas</a></li>       
+  <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/427aceb0858350354adbccd7ce4d8c8bb5fb46f8/Libros">📌 Libros</a></li>       
+  <li><a href="https://github.com/Nicolay404/Analisis-De-Algoritmos/tree/5a17ddcdcceba2ba215aab9675c21b4a68878622/Talleres">📌 Tareas</a></li> 
 </ul>
 
 
@@ -552,15 +561,221 @@ Permite **analizar** algoritmos recursivos como **MergeSort** o **QuickSort** de
   </div>
 </details>
 
-
-  <div align="right">
-    <b><a href="#table-of-contents">↥ back to top</a></b>
-  </div>
-
 </details>
 
- 
+ <!---------------------------------------------------- SEMANA 9 --------------------------------------------------->
 
+<details>
+  <summary><h2 id="semana-9">📌 SEMANA 9</h2></summary>
+  <div>
+
+  ## 🦁 4. Algoritmos voraces
+
+Los **algoritmos voraces** resuelven problemas eligiendo localmente la mejor opción en cada paso con la esperanza de obtener la solución óptima global. 🧠
+
+### 🧩 4.1. Características
+
+- ✅ Decisiones locales óptimas.
+- 🚀 Alta eficiencia.
+- ❗ No siempre óptimos globalmente.
+- 🔍 Utilizados en problemas de optimización.
+
+---
+
+### 🌐 4.2. Grafos no dirigidos
+
+Dos algoritmos voraces clásicos:
+
+#### 🌲 Kruskal
+- Ordena aristas por peso.
+- Añade aristas al árbol mínimo sin formar ciclos.
+
+#### 🌳 Prim
+- Parte de un nodo inicial.
+- Agrega la arista más corta que conecta con el árbol existente.
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/KruskalDemo.gif" width="400">
+</p>
+
+</div>
+<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
+</details>
+
+
+<!---------------------------------------------------- SEMANA 10 --------------------------------------------------->
+
+<details>
+  <summary><h2 id="semana-10">📌 SEMANA 10</h2></summary>
+  <div>
+
+### 🔁 4.3. Grafos dirigidos
+
+#### 🧭 Dijkstra
+- Encuentra caminos mínimos desde un nodo origen.
+- Funciona con pesos no negativos.
+- Voraz, utiliza una cola de prioridad.
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif" width="450">
+</p>
+
+</div>
+<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
+</details>
+
+<!---------------------------------------------------- SEMANA 11 --------------------------------------------------->
+
+<details>
+  <summary><h2 id="semana-11">📌 SEMANA 11</h2></summary>
+  <div>
+
+## 📐 5. Divide y vencerás
+
+### 🔍 5.1. Búsqueda binaria
+
+- Divide el arreglo a la mitad iterativamente.
+- Requiere lista ordenada.
+- Complejidad: `O(log n)`
+
+<p align="center">
+  <img src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif" width="300">
+</p>
+
+</div>
+<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
+</details>
+
+<!---------------------------------------------------- SEMANA 12 --------------------------------------------------->
+
+<details>
+  <summary><h2 id="semana-12">📌 SEMANA 12</h2></summary>
+  <div>
+
+### 🔄 5.2. Ordenación
+
+#### MergeSort
+- Divide el arreglo y fusiona ordenadamente.
+- Estable, `O(n log n)`
+
+#### QuickSort
+- Divide con pivote.
+- Rápido pero no estable.
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif" width="400">
+</p>
+
+</div>
+<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
+</details>
+
+<!---------------------------------------------------- SEMANA 13 --------------------------------------------------->
+
+<details>
+  <summary><h2 id="semana-13">📌 SEMANA 13</h2></summary>
+  <div>
+
+### 📏 5.3. Mediana
+
+- Algoritmo de mediana de medianas permite hallar la mediana en `O(n)`.
+
+---
+
+### ✖️ 5.4. Multiplicación de matrices
+
+- Método clásico: `O(n^3)`
+- **Strassen**: `O(n^2.81)`
+
+---
+
+### ⚡ 5.5. Exponenciación
+
+```python
+def exp(base, n):
+    if n == 0:
+        return 1
+    if n % 2 == 0:
+        half = exp(base, n // 2)
+        return half * half
+    return base * exp(base, n - 1)
+```
+
+</div>
+<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
+</details>
+
+<!---------------------------------------------------- SEMANA 14 --------------------------------------------------->
+
+<details>
+  <summary><h2 id="semana-14">📌 SEMANA 14</h2></summary>
+  <div>
+
+## 🎲 6. Algoritmos probabilistas
+
+### ⏱️ 6.1. Tiempo esperado
+
+Evalúa el rendimiento promedio con base en probabilidad.
+
+---
+
+### 🔢 6.2. Algoritmos numéricos
+
+- Simulan operaciones matemáticas.
+- Ejemplo: estimar π con Monte Carlo.
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Pi_30K.gif" width="300">
+</p>
+
+</div>
+<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
+</details>
+
+<!---------------------------------------------------- SEMANA 15 --------------------------------------------------->
+
+<details>
+  <summary><h2 id="semana-15">📌 SEMANA 15</h2></summary>
+  <div>
+
+### 🧪 6.3. Algoritmos de Monte Carlo
+
+- Devuelven respuestas probablemente correctas.
+- Más rápidos, pero pueden fallar.
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Monty_Hall_problem_simulation.gif" width="300">
+</p>
+
+---
+
+### ❓ 6.4. Problemas
+
+- Juegos, criptografía, compresión.
+- Casos donde exactitud puede ser sacrificada por rapidez.
+
+---
+
+### 🎥 Video recomendado
+
+<div align="center">
+  <a href="https://youtu.be/y6JxYUNfzrM" target="_blank">
+    <img src="https://img.youtube.com/vi/y6JxYUNfzrM/0.jpg" width="500">
+  </a>
+  <br/>
+  <a href="https://youtu.be/y6JxYUNfzrM" target="_blank">
+    <img src="https://img.shields.io/badge/▶️ Ver en YouTube-red?style=for-the-badge&logo=youtube">
+  </a>
+</div>
+
+</div>
+<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
+</details>
+
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ back to top</a></b>
+</div>
 
   <section>
     <h2>📚 Bibliografía</h2>
