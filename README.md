@@ -759,11 +759,11 @@ Evalúa el rendimiento promedio con base en probabilidad.
 ### 🎥 Video recomendado
 
 <div align="center">
-  <a href="https://youtu.be/y6JxYUNfzrM" target="_blank">
+  <a href="https://youtu.be/WJjDr67frtM" target="_blank">
     <img src="https://img.youtube.com/vi/y6JxYUNfzrM/0.jpg" width="500">
   </a>
   <br/>
-  <a href="https://youtu.be/y6JxYUNfzrM" target="_blank">
+  <a href="https://youtu.be/WJjDr67frtM" target="_blank">
     <img src="https://img.shields.io/badge/▶️ Ver en YouTube-red?style=for-the-badge&logo=youtube">
   </a>
 </div>
